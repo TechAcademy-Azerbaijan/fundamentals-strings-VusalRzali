@@ -7,5 +7,5 @@ function train(str) {
   }
   return count + 1;
 }
-let qatar = train("kkkp");
+let qatar = train("kpkkp");
 console.log(qatar);
