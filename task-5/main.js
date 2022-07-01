@@ -7,5 +7,5 @@ function isare(str) {
   }
   return count;
 }
-let isareSayi = isare("-1+2*3+a");
+let isareSayi = isare("+5-2+4-m/n*2:4");
 console.log(isareSayi);
