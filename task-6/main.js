@@ -8,4 +8,4 @@ function sozler(soz) {
   }
   console.log(count);
 }
-sozler("Hello world!");
+sozler("Hello world! Hello,    country!");
