@@ -1,9 +1,11 @@
-const prompt = require('prompt');
-prompt.start();
-
-
-prompt.get('input', function (err, result) {
-  
-    // Write code here
-  
-});
+function sozler(soz) {
+  let m = soz.split(" ");
+  let count = 0;
+  for (let i = 0; i < m.length; i++) {
+    if (m[i] != "") {
+      count++;
+    }
+  }
+  console.log(count);
+}
+sozler("Hello world!");
