@@ -1,9 +1,11 @@
-const prompt = require('prompt');
-prompt.start();
-
-
-prompt.get('input', function (err, result) {
-  
-    // Write code here
-  
-});
+function train(str) {
+  let count = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] == str[i + 1]) {
+      count++;
+    }
+  }
+  return count + 1;
+}
+let qatar = train("kkkp");
+console.log(qatar);
