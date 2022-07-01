@@ -3,7 +3,12 @@ prompt.start();
 
 
 prompt.get('input', function (err, result) {
-  
-    // Write code here
-  
-});
+    let n = result.input
+    let res = n.split(",")
+    let birinci = parseInt(res[0])
+    let ikinci = parseInt(res[1])
+    let ucuncu = parseInt(res[2])
+
+    
+    console.log(Math.min(birinci,ikinci,ucuncu));
+})
