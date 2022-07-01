@@ -1,4 +1,9 @@
-let string = "I am programming on Javascript.";
+const prompt = require('prompt');
+prompt.start();
+
+
+prompt.get('input', function (err, result) {
+let string = result.input;
 const space = (string) => {
   let newArray = [];
   let num = 0;
@@ -17,4 +22,4 @@ const space = (string) => {
   }
 };
 space(string);
-
+})
