@@ -1,10 +1,13 @@
 let str = "This is a cat sitting on a table";
-const boyukHerf = (str) => {
-  let strArray = str.split(" ");
-  let result = "";
-  for (let i = 0; i < strArray.length; i++) {
-    result = result + strArray[i][0].toUpperCase() + strArray[i].slice(1) + " ";
+let herf = "t";
+const herfSayi = (str, herf) => {
+  count = 0;
+  let bigLetter = herf.toUpperCase();
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] == herf || str[i] == bigLetter) {
+      count++;
+    }
   }
-  console.log(result);
+  console.log(count);
 };
-boyukHerf(str);
+herfSayi(str, herf);
