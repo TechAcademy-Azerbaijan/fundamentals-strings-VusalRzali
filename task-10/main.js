@@ -1,4 +1,4 @@
-let string = "I am programming on Python.";
+let string = "I am programming on Javascript.";
 const space = (string) => {
   let newArray = [];
   let num = 0;
